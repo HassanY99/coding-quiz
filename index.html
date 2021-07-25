@@ -6,10 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/stye.css">
     <title>Coding Quiz</title>
-    <script src="./assets/javascript.js"></script>
+    <script src="./assets/script.js"></script>
 </head>
 <body>
-    <h1>Coding Quiz</h1>
+    <!-- Start Quiz Button -->
+
+    <div class="startBtn"><button>Start Quiz</button></div>
     
+    <!-- Info about the Quiz -->
+<div class="infoBox">
+    <div class="infoTitle">
+        <span>Coding Quiz Challenge</span>
+    </div>
+    <div class="gameInfo">
+        <div class="info">This coding quiz challenge consists of <span> 5 questions.</span> Every question conists of <span> 5 multiple choice answers </span> line up with only one correct answer. If you answer the question correctly you would be taken to the next question. If you answer it incorrectly the time would be subtracted from the clock. You would be given <span>30 seconds</span> to complete the quiz. Good Luck!
+        </div>
+        
+    </div>
+    <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+    </div>
+</div>
+
+<!-- Quiz Box -->
+
+<div class="quizBox">
+    <header>
+        <div class="title">Coding Quiz Challenge</div>
+        <div class="timer">
+            <div class="timeText">Time Left</div>
+            <div class="timerSec">30</div>
+        </div>
+
+    </header>
+    <section>
+        <div class="qText">
+            <span>What does HTML stand for?</span>
+        </div>
+        <div class="optionList">
+            <div class="option">
+                <span>Hyper Text Preprocessor</span>
+                <div class="icon tick"><i class="fas fa-check"></i>&#10003</div>
+            </div>
+            <div class="option">
+                <span>Hyper Text Markup Language</span>
+                <div class="icon cross"><i class="fas fa-times"></i>&#10008</div>
+            </div>
+            <div class="option">
+                <span>Hyper Text Multiple Language</span>
+            </div>
+            <div class="option">
+                <span>Hyper Tool Multi Language</span>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- Quiz box footer -->
+    <footer>
+        <div class="totalQuestions">
+            <span>2 of 5 Questions</span>
+        </div>
+        <button class="nextBtn">Next Question</button>
+    </footer>
+
+    <!-- Results -->
+</div>
+
+
+
+
+
+
+
 </body>
 </html>
