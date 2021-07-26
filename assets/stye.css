@@ -247,8 +247,8 @@ section .optionList .option .icon {
     pointer-events: none;
 }
 .optionList .option .icon.tick {
-    border-color:greenyellow;
-    color: greenyellow;
+    border-color:rgb(36, 190, 22);
+    color: rgb(36, 190, 22);
     background: white;
 }
 
@@ -276,16 +276,16 @@ footer .nextBtn {
     padding: 0px 13px;
     font-size: 18px;
     font-weight: 400;
-    border: 1px solid blue;
+    border: 1px solid rgb(121, 201, 255);
     border-radius: 5px;
-    color: rgb(0, 60, 80);
-    background: lightblue;
+    color: rgb(0, 0, 0);
+    background: rgb(217, 249, 252);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 footer .nextBtn:hover {
-    background: lightcoral;
+    background: rgb(255, 113, 103);
     color: white;
 }
 
